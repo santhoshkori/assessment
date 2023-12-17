@@ -1,0 +1,24 @@
+.bgcontainer {
+  background-color: #e0f4ff;
+  padding: 30px;
+}
+.Searchcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.searchele {
+  border-style: none;
+  background-color: none;
+  outline: none;
+}
+.margining {
+  margin-right: 6px;
+}
+.productitemscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

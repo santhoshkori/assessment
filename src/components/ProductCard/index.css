@@ -1,0 +1,32 @@
+.productcard {
+  background-color: #96efff;
+  border-style: solid;
+  border-color: #5fbdff;
+  border-width: 1px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .productcard {
+    width: 90%;
+  }
+}
+
+.bandgestyling {
+  background-color: #7b66ff;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 600;
+  color: white;
+  align-self: flex-start;
+}
+
+.marginingright {
+  margin-right: 20px;
+}
